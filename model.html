@@ -2,12 +2,44 @@
 <html>
 <head>
     <title>Model</title>
+    <link href='css/styles.css' type='text/css' rel='stylesheet' />
 </head>
 <body>
-    <h1>Model</h1>
+    <header>
+        <a href='model.html'>Model</a>
+        <nav>
+            <a href='contact.html'>Contact</a>
+            <a href='about.html'>About</a>
+            <a href='projects.html'>Projects</a>
+            <a href='index.html'>Home</a>
+        </nav>
+    </header>
     <form>
         <fieldset>
-            <legend>Iceberg Parameters</legend>
+            <legend>Time of Measurement</legend>
+            <label>
+                Year:
+                <input type='number' name='year'>
+            </label>
+            <br />
+            <label>
+                Month:
+                <input type='number' name='month'>
+            </label>
+            <br />
+            <label>
+                Day:
+                <input type='number' name='day'>
+            </label>
+            <br />
+            <label>
+                Hour:
+                <input type='number' name='hour'>
+            </label>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>Iceberg Coordinates</legend>
             <label>
                 Latitude:
                 <input type='number' name='latitude'>
@@ -18,6 +50,27 @@
                 <input type='number' name='longitude'>
             </label>
         </fieldset>
+        <br />
+        <fieldset>
+            <legend>Iceberg Dimensions</legend>
+            <label>
+                Length:
+                <input type='number' name='length'>
+            </label>
+            <br />
+            <label>
+                Width:
+                <input type='number' name='width'>
+            </label>
+            <br />
+            <label>
+                Height:
+                <input type='number' name='height'>
+            </label>
+        </fieldset>
     </form>
+    <footer>
+        &copy;2017 Evan Kielley
+    </footer>
 </body>
 </html>
