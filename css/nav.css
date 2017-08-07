@@ -1,4 +1,4 @@
-#nav a
+nav a
 {
     font-size: 50%;
     color: white;
@@ -6,12 +6,12 @@
     padding: 1%;
 }
 
-#nav a:visited
+nav a:visited
 {
     color: red;
 }
 
-#nav a:hover
+nav a:hover
 {
     cursor: pointer;
     color: green;

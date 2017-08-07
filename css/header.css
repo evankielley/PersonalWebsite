@@ -1,10 +1,10 @@
-#header
+header
 {
     font-size: 200%;
-    margin: 1%;
+    overflow: hidden;
 }
 
-#header a
+header a
 {
     float: left;
     text-decoration: none;
