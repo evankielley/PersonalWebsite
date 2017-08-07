@@ -1,0 +1,11 @@
+#header
+{
+    font-size: 200%;
+    margin: 1%;
+}
+
+#header a
+{
+    float: left;
+    text-decoration: none;
+}

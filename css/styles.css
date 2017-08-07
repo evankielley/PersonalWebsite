@@ -1,0 +1,9 @@
+@import url('header.css');
+@import url('nav.css');
+
+*
+{
+    font-family: courier;
+    color: green;
+    background-color: black;
+}

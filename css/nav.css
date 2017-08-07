@@ -1,0 +1,18 @@
+#nav a
+{
+    font-size: 50%;
+    color: white;
+    float: right;
+    padding: 1%;
+}
+
+#nav a:visited
+{
+    color: red;
+}
+
+#nav a:hover
+{
+    cursor: pointer;
+    color: green;
+}
