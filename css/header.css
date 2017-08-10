@@ -4,6 +4,11 @@ header
     overflow: hidden;
 }
 
+header h1
+{
+    font-size: 100%;
+}
+
 header a
 {
     float: left;
